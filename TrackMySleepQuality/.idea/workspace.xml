@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fcee84c-cc1d-4631-9e18-80ae50c06509" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/navigation/navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/ic_guess_it-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/title/TitleFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/game_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/main_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/score_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/title_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-anydpi-v26/ic_guess_it.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-anydpi-v26/ic_guess_it_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-hdpi/ic_guess_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-hdpi/ic_guess_it_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-mdpi/ic_guess_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-mdpi/ic_guess_it_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xhdpi/ic_guess_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xhdpi/ic_guess_it_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxhdpi/ic_guess_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxhdpi/ic_guess_it_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxxhdpi/ic_guess_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxxhdpi/ic_guess_it_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/navigation/main_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cyb1j4ux8rVghsMt2cIRyFTh82" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fcee84c-cc1d-4631-9e18-80ae50c06509" name="Default Changelist" comment="" />
+      <created>1591503567584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591503567584</updated>
+    </task>
+    <servers />
+  </component>
+</project>
