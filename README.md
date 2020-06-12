@@ -1,6 +1,6 @@
 ## GuessTheWorld 
 
-<img src="./image/image-20200612210604216.png" alt="image-20200612210604216" style="zoom:50%;" />
+<img src="./image/image-20200612210604216.png" alt="image-20200612210604216" style="zoom:30%;" />
 
 ### UI controller
 
@@ -28,7 +28,7 @@ A [`ViewModelFactory`](https://developer.android.com/reference/android/arch/life
 
 During configuration changes such as screen rotations, UI controllers such as fragments are re-created. However, `ViewModel` instances survive. If you create the `ViewModel` instance using the `ViewModel` class, a new object is created every time the fragment is re-created. Instead, create the `ViewModel` instance using a [`ViewModelProvider`](https://developer.android.com/reference/android/arch/lifecycle/ViewModelProvider).
 
-![img](./image/README.png)
+<img src="./image/README.png" alt="img" style="zoom:67%;" />
 
 **Important:** Always use [`ViewModelProvider`](https://developer.android.com/reference/android/arch/lifecycle/ViewModelProvider) to create `ViewModel` objects rather than directly instantiating an instance of `ViewModel`.
 
@@ -44,7 +44,7 @@ How `ViewModelProvider` works:
 
 The *observer pattern* is a software design pattern. It specifies communication between objects: an *observable* (the "subject" of observation) and *observers*. An observable is an object that notifies observers about the changes in its state.
 
-![img](./image/b608df5e5e5fa4f8.png)
+<img src="./image/b608df5e5e5fa4f8.png" alt="img" style="zoom:50%;" />
 
 In the case of `LiveData` in this app, the observable (subject) is the `LiveData` object, and the observers are the methods in the UI controllers, such as fragments. A state change happens whenever the data wrapped inside `LiveData` changes. The `LiveData` classes are crucial in communicating from the `ViewModel` to the fragment.
 
@@ -86,7 +86,7 @@ The `Button` view and the `GameViewModel` don't communicate directly—they need
 
 It would be simpler if the views in the layout communicated directly with the data in the `ViewModel` objects, without relying on UI controllers as intermediaries.
 
-![img](./image/7f26738df2266dd6.png)
+<img src="./image/7f26738df2266dd6.png" alt="img" style="zoom:50%;" />
 
 `ViewModel` objects hold all the UI data in the GuessTheWord app. By passing `ViewModel` objects into the data binding, you can automate some of the communication between the views and the `ViewModel` objects.
 
