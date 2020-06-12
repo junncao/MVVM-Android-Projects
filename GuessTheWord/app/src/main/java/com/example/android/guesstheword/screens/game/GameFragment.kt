@@ -51,14 +51,15 @@ class GameFragment : Fragment() {
         )
 
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
-        binding.lifecycleOwner=viewLifecycleOwner
+        binding.lifecycleOwner=viewLifecycleOwner  //Fragment 自带
         binding.gameViewModel=viewModel   //bind data
 
 
         viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer { hasFinished->
             if(hasFinished) gameFinished()
         })
-
+// The observer that you just created receives an event when the data held by the observed LiveData object changes.
+// Inside the observer, update the score TextView with the new score
         return binding.root
 
     }
