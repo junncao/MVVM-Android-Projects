@@ -1,60 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fcee84c-cc1d-4631-9e18-80ae50c06509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/navigation/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/ic_guess_it-web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/title/TitleFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/game_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/main_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/score_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/layout/title_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-anydpi-v26/ic_guess_it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-anydpi-v26/ic_guess_it_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-hdpi/ic_guess_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-hdpi/ic_guess_it_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-mdpi/ic_guess_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-mdpi/ic_guess_it_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xhdpi/ic_guess_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xhdpi/ic_guess_it_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxhdpi/ic_guess_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxhdpi/ic_guess_it_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxxhdpi/ic_guess_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/mipmap-xxxhdpi/ic_guess_it_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/navigation/main_navigation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/settings.gradle" beforeDir="false" />
+    <list default="true" id="dc7488dd-5cfa-4e89-8c9e-e30a6849b43e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/Util.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_quality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_quality.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_tracker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sleep_tracker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
@@ -62,6 +27,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -73,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1cyb1j4ux8rVghsMt2cIRyFTh82" />
+  <component name="ProjectId" id="1cycs3EzRW0mbL9SfXhQkHolHe2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -85,17 +56,181 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepDatabaseTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.android.trackmysleepquality.SleepDatabaseTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/caojun/android-kotlin-fundamentals-starter-apps/TrackMySleepQuality-Starter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.SleepDatabaseTest" />
+        <item itemvalue="Gradle./Users/caojun/android-kotlin-fundamentals-starter-apps/TrackMySleepQuality-Starter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fcee84c-cc1d-4631-9e18-80ae50c06509" name="Default Changelist" comment="" />
-      <created>1591503567584</created>
+      <changelist id="dc7488dd-5cfa-4e89-8c9e-e30a6849b43e" name="Default Changelist" comment="" />
+      <created>1591504476678</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591503567584</updated>
+      <updated>1591504476678</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom" timestamp="1591518420125">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591518420125" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591516498607" />
+    <state width="1398" height="363" key="GridCell.Tab.0.center" timestamp="1591518420122">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591518420122" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591516498606" />
+    <state width="1398" height="363" key="GridCell.Tab.0.left" timestamp="1591518420122">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591518420122" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591516498598" />
+    <state width="1398" height="363" key="GridCell.Tab.0.right" timestamp="1591518420123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591518420123" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591516498607" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityViewModel.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
