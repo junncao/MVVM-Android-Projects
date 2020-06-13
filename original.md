@@ -1,32 +1,10 @@
-<a name="index">**Index**</a>
+[TOC]
 
-<a href="#0">GuessTheWorld</a>  
-&emsp;&emsp;<a href="#1">UI controller</a>  
-&emsp;&emsp;<a href="#2">ViewModel</a>  
-&emsp;&emsp;<a href="#3">ViewModelProvider</a>  
-&emsp;&emsp;<a href="#4">Attach observers to the LiveData objects</a>  
-&emsp;&emsp;<a href="#5">Encapsulate the LiveData</a>  
-&emsp;&emsp;<a href="#6">Add ViewModel data binding</a>  
-&emsp;&emsp;<a href="#7">Add transformation for the LiveData</a>  
-<a href="#8">TrackMySleepQuality</a>  
-&emsp;<a href="#9">overview</a>  
-&emsp;<a href="#10">Database</a>  
-&emsp;&emsp;<a href="#11">Create the SleepNight entity</a>  
-&emsp;&emsp;<a href="#12">Create the DAO</a>  
-&emsp;&emsp;<a href="#13">Create a Room database</a>  
-&emsp;<a href="#14">Add ViewModel</a>  
-&emsp;&emsp;<a href="#15">Add SleepTrackerViewModel</a>  
-&emsp;&emsp;<a href="#16">Add SleepTrackerViewModelFactory</a>  
-&emsp;&emsp;<a href="#17">Update SleepTrackerFragment</a>  
-&emsp;<a href="#18">Coroutines and display data</a>  
-&emsp;&emsp;<a href="#19">Collect and display the data</a>  
-&emsp;&emsp;<a href="#20"> Display the data</a>  
-
-# <a name="0">GuessTheWorld</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+# GuessTheWorld
 
 <img src="./image/image-20200612210604216.png" alt="image-20200612210604216" style="zoom:30%;" />
 
-### <a name="1">UI controller</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### UI controller
 
 A *UI controller* is a UI-based class such as `Activity` or `Fragment`. 
 
@@ -38,13 +16,13 @@ In the GuessTheWord starter code, the UI controllers are the three fragments: `G
 
 Following the "separation of concerns" design principle, the `GameFragment` is **only responsible for drawing game elements to the screen and knowing when the user taps the buttons, and nothing more**. When the user taps a button, this information is passed to the `GameViewModel`.
 
-### <a name="2">ViewModel</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### ViewModel
 
 A [`ViewModel`](https://developer.android.com/reference/android/arch/lifecycle/ViewModel) holds data to be displayed in a fragment or activity associated with the `ViewModel`. A `ViewModel` can do simple calculations and transformations on data to prepare the data to be displayed by the UI controller. In this architecture, the `ViewModel` performs the **decision-making**.
 
 The `GameViewModel` holds data like the **score value**, **the list of words**, and **the current word**, because this is the data to be displayed on the screen. The `GameViewModel` also contains the business logic to perform simple calculations to decide what the current state of the data is.
 
-### <a name="3">ViewModelProvider</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### ViewModelProvider
 
 A [`ViewModelFactory`](https://developer.android.com/reference/android/arch/lifecycle/ViewModelProvider.Factory) instantiates `ViewModel` objects, with or without constructor parameters.
 
@@ -62,7 +40,7 @@ How `ViewModelProvider` works:
 - `ViewModelProvider` creates a `ViewModel` instance in association with the given scope (an activity or a fragment).
 - The created `ViewModel` is retained as long as the scope is alive. For example, if the scope is a fragment, the `ViewModel` is retained until the fragment is detached.
 
-### <a name="4">Attach observers to the LiveData objects</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Attach observers to the LiveData objects
 
 **The observer pattern**
 
@@ -82,7 +60,7 @@ viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
 })
 ```
 
-### <a name="5">Encapsulate the LiveData</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Encapsulate the LiveData
 
 ```kotlin
 private val _word = MutableLiveData<String>()
@@ -90,7 +68,7 @@ val word: LiveData<String>
    get() = _word
 ```
 
-### <a name="6">Add ViewModel data binding</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Add ViewModel data binding
 
 **Current app architecture:**
 
@@ -124,7 +102,7 @@ binding.gameViewModel = viewModel
 
 Data binding creates a listener and sets the listener on the view. When the listened-for event happens, the listener evaluates the lambda expression. Listener bindings work with the Android Gradle Plugin version 2.0 or higher. To learn more, read [Layouts and binding expressions](https://developer.android.com/topic/libraries/data-binding/expressions#listener_bindings).
 
-### <a name="7">Add transformation for the LiveData</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Add transformation for the LiveData
 
 The [`Transformations.map()`](https://developer.android.com/reference/androidx/lifecycle/Transformations.html#map(androidx.lifecycle.LiveData, androidx.arch.core.util.Function)) method provides a way to perform data manipulations on the source `LiveData` and return a result `LiveData` object. These transformations aren't calculated unless an observer is observing the returned `LiveData` object.
 
@@ -146,15 +124,15 @@ val wordHint = Transformations.map(word) { word ->
 
 
 
-# <a name="8">TrackMySleepQuality</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+# TrackMySleepQuality
 
-## <a name="9">overview</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## overview
 
 ![sleep](./image/sleep.png)
 
-## <a name="10">Database</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## Database
 
-### <a name="11">Create the SleepNight entity</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Create the SleepNight entity
 
 ![architecture](./image/archi.png)
 
@@ -175,7 +153,7 @@ data class SleepNight(
 )
 ```
 
-### <a name="12">Create the DAO</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Create the DAO
 
 When you use a `Room` database, you query the database by defining and calling Kotlin functions in your code. These Kotlin functions map to SQL queries. You define those mappings in a DAO using annotations, and `Room` creates the necessary code.
 
@@ -203,7 +181,7 @@ interface SleepDatabaseDao {
 }
 ```
 
-### <a name="13">Create a Room database</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Create a Room database
 
 - You only need one instance of the `Room` database for the whole app, so make the `RoomDatabase` a singleton.
 - Use `Room`'s database builder to create the database only if the database doesn't exist. Otherwise, return the existing database.
@@ -237,9 +215,9 @@ abstract class SleepDatabase : RoomDatabase() {
 }
 ```
 
-## <a name="14">Add ViewModel</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## Add ViewModel
 
-### <a name="15">Add SleepTrackerViewModel</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Add SleepTrackerViewModel
 
 ```kotlin
 class SleepTrackerViewModel(
@@ -248,7 +226,7 @@ class SleepTrackerViewModel(
 }
 ```
 
-### <a name="16">Add SleepTrackerViewModelFactory</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Add SleepTrackerViewModelFactory
 
 ```kotlin
 class SleepTrackerViewModelFactory(
@@ -266,7 +244,7 @@ class SleepTrackerViewModelFactory(
 
 **Tip:** *This is mostly boilerplate code, so you can reuse the code for future view-model factories*.
 
-### <a name="17">Update SleepTrackerFragment</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Update SleepTrackerFragment
 
 ```kotlin
 override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -285,7 +263,7 @@ override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
     }
 ```
 
-## <a name="18">Coroutines and display data</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## Coroutines and display data
 
 You have several options for how to get work done off of from the main thread.
 
@@ -331,7 +309,7 @@ To use coroutines in Kotlin, you need three things:
 
 **Scope:** A coroutine's *scope* defines the context in which the coroutine runs. A scope combines information about a coroutine's job and dispatcher. Scopes keep track of coroutines. When you launch a coroutine, it's "in a scope," which means that you've indicated which scope will keep track of the coroutine.
 
-### <a name="19">Collect and display the data</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### Collect and display the data
 
 In the body of the class, define `viewModelJob` and assign it an instance of `Job`. This `viewModelJob` allows you to cancel all coroutines started by this view model when the view model is no longer used and is destroyed. This way, you don't end up with coroutines that have nowhere to return to.
 
@@ -461,7 +439,7 @@ suspend fun suspendFunction() {
 }
 ```
 
-### <a name="20"> Display the data</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+###  Display the data
 
 In the `SleepTrackerViewModel`, the `nights` variable references `LiveData` because `getAllNights()` in the DAO returns `LiveData`.
 
